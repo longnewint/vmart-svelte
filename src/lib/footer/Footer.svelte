@@ -10,7 +10,6 @@
 
   let socialMediaLinks: string[] = [
     'facebook',
-    'spotify',
     'instagram',
     'youtube',
     'twitter',
@@ -29,16 +28,12 @@
       </ul>
     </nav>
     <nav class="social-media">
-      Find more inspiration:
+      Follow our social media
       <ul>
-        {#each socialMediaLinks as socialMediaLink, index (index)}
-          <li>
-            <img
-              src={`/images/${socialMediaLink}.png`}
-              alt={`${socialMediaLink} icon`}
-            />
-          </li>
-        {/each}
+        <li><i class="fa-brands fa-facebook"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-youtube"></i></li>
+        <li><i class="fa-brands fa-x"></i></li>
       </ul>
     </nav>
   </Container>
@@ -81,17 +76,11 @@
     padding: 0px;
   }
 
-  div {
-    display: none;
-    padding-bottom: 16px;
-  }
-
   .social-media li {
-    background-color: #fff;
     padding: 8px;
   }
 
-  .social-media img {
+  .social-media i {
     height: 24px;
     width: 24px;
     display: flex;
