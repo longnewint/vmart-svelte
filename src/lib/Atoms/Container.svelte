@@ -53,7 +53,7 @@
 
   /* Infobar */
   .infobar {
-    background-color: #3e1062;
+    background-color: #427b58;
   }
 
   .infobar > div {
