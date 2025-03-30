@@ -1,9 +1,9 @@
 <script lang="ts">
   import type { Product as ProductType } from '../../../types/product.type';
-  import AddButton from '../../Atoms/Buttons/AddButton.svelte';
+  import AddButton from '../../base/buttons/AddButton.svelte';
   import favorites from '../../../store/favorites-store';
   import products from '../../../store/products-store';
-  import Text from '../../Atoms/Text.svelte';
+  import Text from '../../base/Text.svelte';
   import cart from '../../..//store/cart-store';
 
   export let description: string;
