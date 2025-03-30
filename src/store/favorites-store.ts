@@ -1,4 +1,4 @@
-import { getStoreArray, updateStore, removeStore } from '../helpers/storage';
+import { getStoreArray, updateStore, removeStore } from '../utils/storage';
 import { writable, type Writable } from 'svelte/store';
 import type { Product } from '../types/product.type.ts';
 
