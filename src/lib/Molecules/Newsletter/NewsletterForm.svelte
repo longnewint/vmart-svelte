@@ -1,9 +1,9 @@
 <script lang="ts">
-  import BaseButton from '../../Atoms/Buttons/BaseButton.svelte';
-  import Radio from '../../Atoms/Buttons/Radio.svelte';
+  import BaseButton from '../../base/buttons/BaseButton.svelte';
+  import Radio from '../../base/buttons/Radio.svelte';
   import { createEventDispatcher } from 'svelte';
-  import Input from '../../Atoms/Input.svelte';
-  import Text from '../../Atoms/Text.svelte';
+  import Input from '../../base/Input.svelte';
+  import Text from '../../base/Text.svelte';
   const dispatch = createEventDispatcher();
 
   export let value: string;
