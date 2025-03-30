@@ -1,10 +1,10 @@
 <script lang="ts">
-  import Product from '../Molecules/Products/Product.svelte';
-  import Close from '../Atoms/Buttons/Close.svelte';
-  import Modal from '../Molecules/Modal.svelte';
-  import favorites from '../../store/favorites-store';
+  import Product from '../../product/Product.svelte';
+  import Modal from '../../../lib/core/Modal.svelte';
+  import favorites from '../../../store/favorites-store';
   import { createEventDispatcher } from 'svelte';
-  import Heading from '../Atoms/Heading.svelte';
+  import Heading from '../../../lib/base/Heading.svelte';
+  import Close from '../../../lib/base/buttons/Close.svelte';
 
   const dispatch = createEventDispatcher();
   export let showFavorites: boolean;
