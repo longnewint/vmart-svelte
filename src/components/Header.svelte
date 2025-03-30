@@ -1,11 +1,11 @@
 <script lang="ts">
-  import SearchBar from '../Molecules/Header/SearchBar.svelte';
-  import InfoBar from '../Molecules/Header/InfoBar.svelte';
-  import Navbar from '../Molecules/Header/Navbar.svelte';
-  import Favorites from './Favorites.svelte';
-  import Cart from './Cart.svelte';
-  import searchTerm from '../../store/search-store';
-  import category from '../../store/category-store';
+  import SearchBar from './header/SearchBar.svelte';
+  import InfoBar from './header/InfoBar.svelte';
+  import Navbar from './header/Navbar.svelte';
+  import Favorites from './header/favorite/Favorites.svelte';
+  import Cart from './header/cart/Cart.svelte';
+  import searchTerm from '../store/search-store';
+  import category from '../store/category-store';
 
   export let innerWidth: number;
 
