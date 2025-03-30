@@ -1,11 +1,11 @@
 <script lang="ts">
-  import CartModalProduct from '../Molecules/Cart/CartModalProduct.svelte';
-  import type { Product as ProductType} from '../../types/product.type';
-  import Close from '../Atoms/Buttons/Close.svelte';
-  import Modal from '../Molecules/Modal.svelte';
+  import CartModalProduct from './CartModalProduct.svelte';
+  import type { Product as ProductType} from '../../../types/product.type';
+  import Close from '../../../lib/base/buttons/Close.svelte';
+  import Modal from '../../../lib/core/Modal.svelte';
   import { createEventDispatcher } from 'svelte';
-  import Heading from '../Atoms/Heading.svelte';
-  import cart from '../../store/cart-store';
+  import Heading from '../../../lib/base/Heading.svelte';
+  import cart from '../../../store/cart-store';
   const dispatch = createEventDispatcher();
 
   export let showCart: boolean;
