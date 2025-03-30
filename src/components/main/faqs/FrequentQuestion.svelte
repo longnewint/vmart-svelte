@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Text from '../../base/Text.svelte';
+  import Text from '../../../lib/base/Text.svelte';
   import { slide } from 'svelte/transition';
 
   export let icon: string;
