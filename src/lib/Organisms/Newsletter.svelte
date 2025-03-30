@@ -2,7 +2,7 @@
   import NewsletterForm from '../Molecules/Newsletter/NewsletterForm.svelte';
   import Toast from '../Molecules/Newsletter/Toast.svelte';
   import Container from '../Atoms/Container.svelte';
-  import { validEmail } from '../../helpers/validation';
+  import { validEmail } from '../../utils/validation';
   import Heading from '../Atoms/Heading.svelte';
   import Text from '../Atoms/Text.svelte';
 
