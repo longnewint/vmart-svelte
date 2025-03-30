@@ -1,6 +1,6 @@
 <script lang="ts">
-  import LanguageSelect from '../../lib/base/LanguageSelect.svelte';
-  import Container from '../../lib/base/Container.svelte';
+  import LanguageSelect from '../lib/base/LanguageSelect.svelte';
+  import Container from '../lib/base/Container.svelte';
 
   let pageLinks: string[] = [
     'About',
