@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount, createEventDispatcher } from 'svelte';
-  import Close from '../../base/buttons/Close.svelte';
+  import Close from '../../../lib/base/buttons/Close.svelte';
   import { backInOut, cubicOut } from 'svelte/easing';
   import { fly, fade } from 'svelte/transition';
   import { tweened } from 'svelte/motion';
