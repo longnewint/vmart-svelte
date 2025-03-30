@@ -1,8 +1,8 @@
 <script lang="ts">
   import type { Product as ProductType } from '../../types/product.type';
-  import Product from '../Molecules/Products/Product.svelte';
-  import Container from '../Atoms/Container.svelte';
-  import Spinner from '../Atoms/Spinner.svelte';
+  import Product from './Product.svelte';
+  import Container from '../../lib/base/Container.svelte';
+  import Spinner from '../../lib/base/Spinner.svelte';
   import favorites from '../../store/favorites-store';
   import category from '../../store/category-store';
   import products from '../../store/products-store';

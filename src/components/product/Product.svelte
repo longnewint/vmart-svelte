@@ -1,10 +1,10 @@
 <script lang="ts">
-  import type { Product as ProductType } from '../../../types/product.type';
-  import AddButton from '../../base/buttons/AddButton.svelte';
-  import favorites from '../../../store/favorites-store';
-  import products from '../../../store/products-store';
-  import Text from '../../base/Text.svelte';
-  import cart from '../../..//store/cart-store';
+  import type { Product as ProductType } from '../../types/product.type';
+  import AddButton from '../../lib/base/buttons/AddButton.svelte';
+  import favorites from '../../store/favorites-store';
+  import products from '../../store/products-store';
+  import Text from '../../lib/base/Text.svelte';
+  import cart from '../../store/cart-store';
 
   export let description: string;
   export let price: number;
