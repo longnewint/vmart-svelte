@@ -1,7 +1,7 @@
 <script lang="ts">
-  import MenuButton from '../../base/buttons/MenuButton.svelte';
+  import MenuButton from '../../lib/base/buttons/MenuButton.svelte';
   import { createEventDispatcher } from 'svelte';
-  import category from '../../../store/category-store';
+  import category from '../../store/category-store';
   import { slide } from 'svelte/transition';
   const dispatch = createEventDispatcher();
 

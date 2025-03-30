@@ -1,12 +1,12 @@
 <script lang="ts">
-  import MenuButton from '../../base/buttons/MenuButton.svelte';
-  import LanguageSelect from '../../base/LanguageSelect.svelte';
-  import Container from '../../base/Container.svelte';
-  import favorites from '../../../store/favorites-store';
+  import MenuButton from '../../lib/base/buttons/MenuButton.svelte';
+  import LanguageSelect from '../../lib/base/LanguageSelect.svelte';
+  import Container from '../../lib/base/Container.svelte';
+  import favorites from '../../store/favorites-store';
   import { createEventDispatcher } from 'svelte';
-  import category from '../../../store/category-store';
-  import Logo from '../../base/Logo.svelte';
-  import cart from '../../../store/cart-store';
+  import category from '../../store/category-store';
+  import Logo from '../../lib/base/Logo.svelte';
+  import cart from '../../store/cart-store';
   const dispatch = createEventDispatcher();
 
   export let mainCategories: { id: number; name: string }[];

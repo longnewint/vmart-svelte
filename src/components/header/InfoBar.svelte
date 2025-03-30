@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Close from '../../base/buttons/Close.svelte';
-  import Container from '../../base/Container.svelte';
-  import Text from '../../base/Text.svelte';
+  import Close from '../../lib/base/buttons/Close.svelte';
+  import Container from '../../lib/base/Container.svelte';
+  import Text from '../../lib/base/Text.svelte';
 
   let showInfo: boolean = true;
 
