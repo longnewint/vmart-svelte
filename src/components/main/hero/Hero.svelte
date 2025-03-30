@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Container from '../Atoms/Container.svelte';
-  import Heading from '../Atoms/Heading.svelte';
-  import Text from '../Atoms/Text.svelte';
+  import Container from '../../../lib/base/Container.svelte';
+  import Heading from '../../../lib/base/Heading.svelte';
+  import Text from '../../../lib/base/Text.svelte';
 </script>
 
 <Container classname="hero">
