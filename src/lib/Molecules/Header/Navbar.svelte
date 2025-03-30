@@ -1,11 +1,11 @@
 <script lang="ts">
-  import MenuButton from '../../Atoms/Buttons/MenuButton.svelte';
-  import LanguageSelect from '../../Atoms/LanguageSelect.svelte';
-  import Container from '../../Atoms/Container.svelte';
+  import MenuButton from '../../base/buttons/MenuButton.svelte';
+  import LanguageSelect from '../../base/LanguageSelect.svelte';
+  import Container from '../../base/Container.svelte';
   import favorites from '../../../store/favorites-store';
   import { createEventDispatcher } from 'svelte';
   import category from '../../../store/category-store';
-  import Logo from '../../Atoms/Logo.svelte';
+  import Logo from '../../base/Logo.svelte';
   import cart from '../../../store/cart-store';
   const dispatch = createEventDispatcher();
 

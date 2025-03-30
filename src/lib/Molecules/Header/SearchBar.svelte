@@ -1,8 +1,8 @@
 <script lang="ts">
   import NavbarMobile from './NavbarMobile.svelte';
-  import BurgerButton from '../../Atoms/Buttons/BurgerButton.svelte';
-  import Container from '../../Atoms/Container.svelte';
-  import Input from '../../Atoms/Input.svelte';
+  import BurgerButton from '../../base/buttons/BurgerButton.svelte';
+  import Container from '../../base/Container.svelte';
+  import Input from '../../base/Input.svelte';
 
   export let changeCategory: (e: CustomEvent<number>) => void;
   export let categories: { id: number; name: string }[];
